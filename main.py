@@ -5,7 +5,7 @@ import time
 load_dotenv()
 client = genai.Client()
 
-st.set_page_config(page_title="Travel AI Assistant", page_icon="✈️", layout="wide")
+st.set_page_config(page_title="  TSravel Assistant", page_icon="✈️", layout="wide")
 
 # Advanced Animated & Glowing Header HTML/CSS
 st.markdown("""

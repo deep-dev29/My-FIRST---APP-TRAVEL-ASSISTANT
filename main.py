@@ -2,18 +2,9 @@ import streamlit as st
 from google import genai
 from dotenv import load_dotenv
 import time
-load_dotenv(r"C:\Users\annuk\BANK\API\google_gemini\.env")
+load_dotenv()
 client = genai.Client()
-# st.title("🌐Travel Assistant") 
-# st.markdown("""
-# # ✈️ **TRAVEL ASSISTANT **
-# ### *Your Ultimate Smart Travel Companion*""")
-# st.markdown("""
-# > # 🧭   *Travel Assistant*
-# > ---
-# > **Wherever you go, go with all your heart.**  
-# > *Ask me for customized itineraries, hidden gems, flight estimates, and local tips worldwide.*
-# """)
+
 st.set_page_config(page_title="Travel AI Assistant", page_icon="✈️", layout="wide")
 
 # Advanced Animated & Glowing Header HTML/CSS

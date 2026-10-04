@@ -3,9 +3,19 @@ from google import genai
 from dotenv import load_dotenv
 import time
 load_dotenv()
-client = genai.Client()
-
+client = genai.Client()    
 st.set_page_config(page_title="  Travel Assistant", page_icon="✈️", layout="wide")
+
+st.markdown("""
+<style>
+.stApp {
+    background-image: url("https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=2000&auto=format&fit=crop");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+</style>
+""", unsafe_allow_html=True)
 
 # Advanced Animated & Glowing Header HTML/CSS
 st.markdown("""
